@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+body {font-size: 16px;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  text-transform: uppercase;
+  
+}
+header {
+  line-height: 3.4em!important;
+  background-color: #282c34;
+  color: #61dafb;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+#app{
+  text-align: center;
+}
+.App-link {
+  color: #61dafb;
+}
+.card{
+  background: #ddd;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90vw;
+  padding: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all ease-in-out .3s;
+  &:hover{
+    background: #2c2c2c;
+    color: #ddd;
+  }
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+.form{
+  width: 300px;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  input {
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .btn{
+    align-self: center;
+    padding: 5px 20px;
+    cursor: pointer;
+    background: #282c34;
+    color: #ddd;
+    border: none;
+  }
+
+}
